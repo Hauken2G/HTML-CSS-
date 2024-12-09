@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  width: 15%;
+  width: 20%;
   gap: 40px;
   background-color: rgb(22, 140, 187);
 }
@@ -184,7 +184,6 @@ button {
 }
 .projectCards {
   display: flex;
-  justify-content: space-between;
   background-color: rgba(201, 201, 201, 0.336);
   height: 100%;
 }
@@ -192,4 +191,138 @@ button {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  height: 100%;
+  width: 80%;
+}
+.titleProject {
+  font-size: 70%;
+  margin-top: 2%;
+  margin-left: 3%;
+  height: 5%;
+}
+.groupCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 110%;
+  height: 70%;
+  margin-left: 3%;
+}
+.cards {
+  display: flex;
+  width: 40%;
+  height: 35%;
+  gap: 15px;
+  border-style: none;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px #8888;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.indivProjectTitle {
+  display: flex;
+  flex-direction: column;
+}
+.cardImages {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-top: 5%;
+  margin-right: 5%;
+  padding-bottom: 4%;
+  gap: 10px;
+}
+.cardText {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  height: 40%;
+  font-size: 15px;
+}
+.cardBox {
+  display: flex;
+  width: 80%;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.yellowLine {
+  background-color: rgb(245, 181, 44);
+  width: 1%;
+  border-radius: 20px;
+}
+
+.more {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  height: 91%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.announcementContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.announcementBox {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px #8888;
+  font-size: 13px;
+  padding: 2%;
+}
+
+.announcementDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.announcementOne {
+  padding: 5%;
+  box-shadow: 1px 1px #8888;
+}
+.announcementTwo {
+  padding: 5%;
+  box-shadow: 1px 1px #8888;
+}
+.announcementThree {
+  padding: 5%;
+  box-shadow: 1px 1px #8888;
+}
+.trendingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.trending {
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px #8888;
+}
+.secondProfile {
+  display: flex;
+}
+.thirdProfile {
+  display: flex;
+}
+.fourthProfile {
+  display: flex;
+}
+.firstProfile {
+  display: flex;
+}
+h3 {
+  font-size: 15px;
 }
